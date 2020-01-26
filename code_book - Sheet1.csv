@@ -1,0 +1,36 @@
+Variable name,Description,Type,Units
+total_acc_x_[train|test]_raw,The acceleration signal from the smartphone accelerometer X axis.,numeric,gravity units (g)
+total_acc_x_[train|test]_mean,Mean of acceleration signal X axis,numeric,
+total_acc_x_[train|test]_sds,Standard deviation of acceleration signal X axis,numeric,
+total_acc_y_[train|test]_raw,The acceleration signal from the smartphone accelerometer Y axis.,numeric,gravity units (g)
+total_acc_y_[train|test]_mean,Mean of acceleration signal Y axis,numeric,
+total_acc_y_[train|test]_sds,Standard deviation of acceleration signal Y axis,numeric,
+total_acc_z_[train|test]_raw,The acceleration signal from the smartphone accelerometer Z axis.,numeric,gravity units (g)
+total_acc_z_[train|test]_mean,Mean of acceleration signal Z axis,numeric,
+total_acc_z_[train|test]_sds,Standard deviation of acceleration signal Z axis,numeric,
+body_acc_x_[train|test]_raw,The body acceleration signal (x axis) obtained by subtracting the gravity from the total acceleration.,numeric,gravity units (g)
+body_acc_x_[train|test]_mean,Mean of body acceleration signals in an observation.,numeric,
+body_acc_x_[train|test]_sds,Standard deviation of body acceleration signals in an observation.,numeric,
+body_acc_y_[train|test]_raw,The body acceleration signal (y axis) obtained by subtracting the gravity from the total acceleration.,numeric,gravity units (g)
+body_acc_y_[train|test]_mean,Mean of body acceleration signals in an observation.,numeric,
+body_acc_y_[train|test]_sds,Standard deviation of body acceleration signals in an observation.,numeric,
+body_acc_z_[train|test]_raw,The body acceleration signal (z axis) obtained by subtracting the gravity from the total acceleration.,numeric,gravity units (g)
+body_acc_z_[train|test]_mean,Mean of body acceleration signals in an observation.,numeric,
+body_acc_z_[train|test]_sds,Standard deviation of body acceleration signals in an observation.,numeric,
+body_gyro_x_[train|test]_raw,The angular velocity vector (x axis) measured by the gyroscope for each window sample.,numeric,radians per second
+body_gyro_x_[train|test]_mean,Mean of angular velocity vector signals in an observation.,numeric,
+body_gyro_x_[train|test]_sds,Standard deviation of angular velocity vector signals in an observation.,numeric,
+body_gyro_y_[train|test]_raw,The angular velocity vector (y axis) measured by the gyroscope for each window sample.,numeric,radians per second
+body_gyro_y_[train|test]_mean,Mean of angular velocity vector signals in an observation.,numeric,
+body_gyro_y_[train|test]_sds,Standard deviation of angular velocity vector signals in an observation.,numeric,
+body_gyro_z_[train|test]_raw,The angular velocity vector (z axis) measured by the gyroscope for each window sample.,numeric,radians per second
+body_gyro_z_[train|test]_mean,Mean of angular velocity vector signals in an observation.,numeric,
+body_gyro_z_[train|test]_sds,Standard deviation of angular velocity vector signals in an observation.,numeric,
+subject_[train|test],Identification number of the subject for each observation,data frame,
+y_[train|test],Activity code number for each observation,data frame,
+activities,Mapping of activity code number to English label,data frame,
+hash_lookup,Intermediate mapping for activity codes,data frame,
+[train|test]_activities,Complement to y_[train|test] that uses labels in place of code numbers,data frame,
+[train|test]_frame,Assembled training and test data frames,data frame,
+combined,Data frame containing merged training and test frames,data frame,
+combined_summarized,Data frame with the average of each variable for each activity and each subject,data frame,
