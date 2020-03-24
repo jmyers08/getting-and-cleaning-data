@@ -114,8 +114,8 @@ colnames(test_frame) <- c('subject', 'activity', 'mean body acceleration, x axis
 combined = rbind(train_frame, test_frame)
 
 # objective 5: create a second, independent tidy data set with the average of each variable for each activity and each subject.
-combined_summarized <- combined %>% group_by(subject, activity) %>% summarise(mbax=mean(`mean body acceleration, x axis`), mbay=mean(`mean body acceleration, y axis`), 
-                                                       mbaz=mean(`mean body acceleration, z axis`), mgx=mean(`mean gyroscope x axis`), mgy=mean(`mean gyroscope y axis`), 
-                                                       mgz=mean(`mean gyroscope z axis`), mrax=mean(`mean raw acceleration, x axis`), mray=mean(`mean raw acceleration, y axis`), 
-                                                       mraz=mean(`mean raw acceleration, z axis`))
+combined_summarized <- combined %>% group_by(subject, activity) %>% summarise(mean_body_acc_x=mean(`mean body acceleration, x axis`), mean_body_acc_y=mean(`mean body acceleration, y axis`), 
+                                                                              mean_body_acc_z=mean(`mean body acceleration, z axis`), mean_gyro_x=mean(`mean gyroscope x axis`), mean_gyro_y=mean(`mean gyroscope y axis`), 
+                                                                              mean_gyro_z=mean(`mean gyroscope z axis`), mean_raw_acc_x=mean(`mean raw acceleration, x axis`), mean_raw_acc_y=mean(`mean raw acceleration, y axis`), 
+                                                                              mean_raw_acc_z=mean(`mean raw acceleration, z axis`))
 
