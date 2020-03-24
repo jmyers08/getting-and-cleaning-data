@@ -6,4 +6,6 @@ The run_analysis.R script assumes that it is being run in the directory containi
 
 CodeBook.md details all variables used in the script, with a description, type, and units defined.
 
+combined_summarized.txt contains the results of the final write.csv command in run_analysis.R.
+
 Per the assignment prompt, the output datasets contain summarized variables for each category of measurement, not the raw measurements themselves.
