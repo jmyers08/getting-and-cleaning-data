@@ -1,3 +1,61 @@
+## Variables shown in combined_summarized.txt
+Variable name: subject
+- Description: Unique identification number of the subject under study	
+- Type: numeric	
+- Units: N/A
+
+Variable name: activity
+- Description: English description of the activity being conducted for the indicated observation	
+- Type: description	
+- Units: N/A
+
+Variable name: mean_body_acc_x
+- Description: The mean body acceleration signal (x axis) obtained by subtracting the gravity from the total acceleration.	
+- Type: numeric	
+- Units: gravity units (g)
+
+Variable name: mean_body_acc_y
+- Description: The mean body acceleration signal (y axis) obtained by subtracting the gravity from the total acceleration.	
+- Type: numeric	
+- Units: gravity units (g)
+
+Variable name: mean_body_acc_z
+- Description: The mean body acceleration signal (z axis) obtained by subtracting the gravity from the total acceleration.	
+- Type: numeric	
+- Units: gravity units (g)
+
+Variable name: mean_gyro_x
+- Description: The mean angular velocity vector (x axis) measured by the gyroscope.	
+- Type: numeric	
+- Units: radians per second
+
+Variable name: mean_gyro_y
+- Description: The mean angular velocity vector (y axis) measured by the gyroscope.	
+- Type: numeric	
+- Units: radians per second
+
+Variable name: mean_gyro_z
+- Description: The mean angular velocity vector (z axis) measured by the gyroscope.	
+- Type: numeric	
+- Units: radians per second
+
+Variable name: mean_raw_acc_x
+- Description: The mean acceleration signal from the smartphone accelerometer X axis.	
+- Type: numeric	
+- Units: gravity units (g)
+
+Variable name: mean_raw_acc_y
+- Description: The mean acceleration signal from the smartphone accelerometer Y axis.	
+- Type: numeric	
+- Units: gravity units (g)
+
+Variable name: mean_raw_acc_z
+- Description: The mean acceleration signal from the smartphone accelerometer Z axis.	
+- Type: numeric	
+- Units: gravity units (g)
+
+
+## Variables used in run_analysis.R
 Variable name: total_acc_x_[train|test]_raw
 - Description: The acceleration signal from the smartphone accelerometer X axis.	
 - Type: numeric	
