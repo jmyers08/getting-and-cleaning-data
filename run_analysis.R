@@ -119,3 +119,5 @@ combined_summarized <- combined %>% group_by(subject, activity) %>% summarise(me
                                                                               mean_gyro_z=mean(`mean gyroscope z axis`), mean_raw_acc_x=mean(`mean raw acceleration, x axis`), mean_raw_acc_y=mean(`mean raw acceleration, y axis`), 
                                                                               mean_raw_acc_z=mean(`mean raw acceleration, z axis`))
 
+write.csv(combined_summarized, "combined_summarized.txt", row.names = TRUE)
+
